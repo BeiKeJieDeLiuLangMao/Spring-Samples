@@ -17,6 +17,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class RestData implements Serializable {
+    private static final long serialVersionUID = -6175197797440818644L;
     private int id;
     private String value;
 }
